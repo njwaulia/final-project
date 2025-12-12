@@ -11,10 +11,6 @@
 
 # 🏨 FINAL PROJECT TSDW: Analisis Permintaan Pemesanan Hotel
 
-## 👥 Kelompok 8
-
-## 📋 Ikhtisar Proyek
-
 Proyek ini bertujuan untuk mendemonstrasikan proses **Data Wrangling** (pembersihan, transformasi, dan rekayasa fitur) pada dataset permintaan pemesanan hotel. Dilanjutkan dengan analisis eksploratif (EDA) untuk mendapatkan *insight* mengenai tingkat pembatalan dan perbedaan profil pemesanan antara dua tipe hotel: Resort Hotel dan City Hotel.
 
 **Dataset:** Hotel Booking Demand Dataset (hotels.csv)
@@ -46,4 +42,5 @@ Repositori ini mengikuti struktur standar proyek Data Science, memastikan pemisa
 
 3.  **Jalankan Notebook:**
     Buka `notebooks/final_project.ipynb` di Google Colab atau Jupyter Notebook dan eksekusi setiap *cell* secara berurutan.
+
 
