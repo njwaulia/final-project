@@ -25,3 +25,20 @@ Proyek ini bertujuan untuk mendemonstrasikan proses Data Wrangling (pembersihan,
 ## 📁 Struktur Repositori
 
 Repositori ini mengikuti struktur standar proyek Data Science memastikan pemisahan data mentah, data bersih, dan *notebook* analisis.
+
+## 🛠️ Cara Menjalankan Proyek
+
+1.  **Clone Repositori:**
+    ```bash
+    git clone [https://github.com/najwaauliaaa/final-project.git](https://github.com/najwaauliaaa/final-project.git)
+    cd final-project-tsdw
+    ```
+
+2.  **Instal Dependencies:**
+    Instal semua package Python yang diperlukan agar *notebook* dapat berjalan dengan lingkungan yang sama:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Jalankan Notebook:**
+    Buka `notebooks/final_project.ipynb` di Google Colab atau Jupyter Notebook dan eksekusi setiap *cell* secara berurutan.
