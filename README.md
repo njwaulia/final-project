@@ -1,4 +1,4 @@
-# **LAPORAN FINAL PROJECT**: Hotel Bookings Data
+# 🏨 FINAL PROJECT TSDW: Analisis Permintaan Pemesanan Hotel
 ## Kelompok 8
 
 > 5052241009 Violita Karina Putri
@@ -9,7 +9,7 @@
 > 
 > 5052241035 Najwa Aulia
 
-# 🏨 FINAL PROJECT TSDW: Analisis Permintaan Pemesanan Hotel
+## ✨ Deskripsi 
 
 Proyek ini bertujuan untuk mendemonstrasikan proses **Data Wrangling** (pembersihan, transformasi, dan rekayasa fitur) pada dataset permintaan pemesanan hotel. Dilanjutkan dengan analisis eksploratif (EDA) untuk mendapatkan *insight* mengenai tingkat pembatalan dan perbedaan profil pemesanan antara dua tipe hotel: Resort Hotel dan City Hotel.
 
@@ -41,7 +41,7 @@ Repositori ini mengikuti struktur standar proyek Data Science, memastikan pemisa
 | is_canceled                  | int64                  | 0 = tidak batal, 1 = batal              |
 | lead_time                    | int64                  | Hari sebelum tanggal kedatangan         |
 | arrival_date_year            | int64                  | Tahun kedatangan                        |
-| arrival_date_month           | object                 | Bulan kedatangan (string)               |
+| arrival_date_month           | int64                 | Bulan kedatangan                        |
 | arrival_date_week_number     | int64                  | Nomor minggu dalam tahun                |
 | arrival_date_day_of_month    | int64                  | Tanggal dalam bulan                     |
 | stays_in_weekend_nights      | int64                  | Malam akhir pekan                       |
@@ -88,6 +88,7 @@ Repositori ini mengikuti struktur standar proyek Data Science, memastikan pemisa
 
 3.  **Jalankan Notebook:**
     Buka `notebooks/final_project.ipynb` di Google Colab atau Jupyter Notebook dan eksekusi setiap *cell* secara berurutan.
+
 
 
 
