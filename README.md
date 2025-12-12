@@ -33,6 +33,45 @@ Proyek ini bertujuan untuk mendemonstrasikan proses **Data Wrangling** (pembersi
 
 Repositori ini mengikuti struktur standar proyek Data Science, memastikan pemisahan data mentah, data bersih, dan *notebook* analisis:
 
+## Tipe Data Setelah Cleaning
+
+| Kolom                        | Tipe Data (dtype)      | Keterangan                              |
+|------------------------------|------------------------|-----------------------------------------|
+| hotel                        | object                 | Kategori (Resort Hotel / City Hotel)    |
+| is_canceled                  | int64                  | 0 = tidak batal, 1 = batal              |
+| lead_time                    | int64                  | Hari sebelum tanggal kedatangan         |
+| arrival_date_year            | int64                  | Tahun kedatangan                        |
+| arrival_date_month           | object                 | Bulan kedatangan (string)               |
+| arrival_date_week_number     | int64                  | Nomor minggu dalam tahun                |
+| arrival_date_day_of_month    | int64                  | Tanggal dalam bulan                     |
+| stays_in_weekend_nights      | int64                  | Malam akhir pekan                       |
+| stays_in_week_nights         | int64                  | Malam hari biasa                        |
+| adults                       | int64                  | Jumlah dewasa                           |
+| children                     | int64                  | Jumlah anak (setelah imputasi)          |
+| babies                       | int64                  | Jumlah bayi                             |
+| meal                         | object                 | Tipe makan (BB, HB, FB, SC, dll)        |
+| country                      | object                 | Kode negara (imputasi Unknown)          |
+| market_segment               | object                 | Segmen pasar                            |
+| distribution_channel         | object                 | Kanal distribusi                        |
+| is_repeated_guest            | int64                  | Tamu berulang                           |
+| previous_cancellations       | int64                  | Pembatalan sebelumnya                   |
+| previous_bookings_not_canceled | int64                | Booking sebelumnya tidak dibatalkan     |
+| reserved_room_type           | object                 | Tipe kamar yang dipesan                 |
+| assigned_room_type           | object                 | Tipe kamar yang diberikan               |
+| booking_changes              | int64                  | Jumlah perubahan booking                |
+| deposit_type                 | object                 | Tipe deposit                            |
+| agent                        | float64                  | Kode agen (0 = tidak pakai agen)        |
+| company                      | float64                  | Kode company                            |
+| days_in_waiting_list         | int64                  | Hari menunggu                           |
+| customer_type                | object                 | Tipe pelanggan                          |
+| adr                          | float64                | Average Daily Rate (setelah cleaning)   |
+| required_car_parking_spaces  | int64                  | Tempat parkir dibutuhkan                |
+| total_of_special_requests    | int64                  | Permintaan khusus                       |
+| reservation_status           | object                 | Status reservasi                        |
+| reservation_status_date      | datetime64[ns]         | Tanggal status reservasi                |
+| arrival_date                 | datetime64[ns]         | Tanggal kedatangan (feature baru)       |
+| total_stays                  | int64                  | Total malam menginap (feature baru)     |
+
 ## 🛠️ Cara Menjalankan Proyek
 
 1.  **Clone Repositori:**
@@ -49,6 +88,7 @@ Repositori ini mengikuti struktur standar proyek Data Science, memastikan pemisa
 
 3.  **Jalankan Notebook:**
     Buka `notebooks/final_project.ipynb` di Google Colab atau Jupyter Notebook dan eksekusi setiap *cell* secara berurutan.
+
 
 
 
